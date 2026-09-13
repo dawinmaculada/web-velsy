@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg viewBox='0 0 64 66' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2,2 L18,2 L34,63 L30,63 Z' fill='%23111111'/%3E%3Cpath d='M62,2 L46,2 L30,63 L34,63 Z' fill='%23111111'/%3E%3Crect x='0' y='0' width='20' height='6' fill='%23111111'/%3E%3Crect x='44' y='0' width='20' height='6' fill='%23111111'/%3E%3Ccircle cx='44' cy='13' r='5' fill='%23c9a227'/%3E%3Cpath d='M20,28 C22,42 29,56 32,62 C33,56 38,44 44,21' stroke='%23c9a227' stroke-width='4.5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E" />
+
+  <title id="page-title">Perfil de profesional | velsy</title>
+  <meta id="meta-description" name="description" content="Perfil de profesional en el marketplace de velsy." />
+  <link id="link-canonical" rel="canonical" href="https://velsy.es/encuentra-tu-servicio/" />
+  <meta property="og:type" content="profile" />
+  <meta id="meta-og-title" property="og:title" content="Perfil de profesional | velsy" />
+  <meta id="meta-og-description" property="og:description" content="Perfil de profesional en el marketplace de velsy." />
+  <meta id="meta-og-url" property="og:url" content="https://velsy.es/encuentra-tu-servicio/" />
+
+  <link rel="stylesheet" href="../styles.css?v=4" />
+</head>
+<body>
+
+  <header class="mkt-nav">
+    <a href="https://velsy.es/" class="mkt-logo">
+      <svg width="26" height="27" viewBox="0 0 64 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2,2 L18,2 L34,63 L30,63 Z" fill="#111111"/>
+        <path d="M62,2 L46,2 L30,63 L34,63 Z" fill="#111111"/>
+        <rect x="0" y="0" width="20" height="6" fill="#111111"/>
+        <rect x="44" y="0" width="20" height="6" fill="#111111"/>
+        <circle cx="44" cy="13" r="5" fill="#c9a227"/>
+        <path d="M20,28 C22,42 29,56 32,62 C33,56 38,44 44,21" stroke="#c9a227" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+      </svg>
+      <span class="mkt-logo-text">velsy</span>
+    </a>
+    <ul class="mkt-nav-links">
+      <li><a href="https://velsy.es/#caracteristicas">Características</a></li>
+      <li><a href="https://velsy.es/#precios">Precios</a></li>
+      <li><a href="https://velsy.es/#especialidades">Especialidades</a></li>
+      <li><a href="/encuentra-tu-servicio/" aria-current="page">Encuentra tu servicio</a></li>
+      <li><a href="https://velsy.es/#contacto">Contacto</a></li>
+    </ul>
+    <a href="https://app.velsy.es/register" class="btn btn-gold">Empezar gratis</a>
+  </header>
+
+  <nav class="breadcrumbs" aria-label="Migas de pan" id="breadcrumbs">
+    <a href="https://velsy.es/">Inicio</a><span class="sep">›</span><a href="/encuentra-tu-servicio/">Encuentra tu servicio</a><span class="sep">›</span><span aria-current="page" id="breadcrumb-current">…</span>
+  </nav>
+
+  <div class="mkt-section">
+    <div id="state-loading" class="state-block">
+      <div class="state-icon">⏳</div>
+      <h3>Cargando perfil…</h3>
+    </div>
+
+    <div id="state-notfound" class="state-block" hidden>
+      <div class="state-icon">🙁</div>
+      <h3>No hemos encontrado este perfil</h3>
+      <p>Puede que el enlace sea incorrecto o que el profesional ya no esté disponible.</p>
+      <p style="margin-top:1rem"><a href="/encuentra-tu-servicio/" class="btn btn-gold">Volver al buscador</a></p>
+    </div>
+
+    <main id="profile-content" hidden>
+      <div id="demo-banner" class="demo-banner" hidden>Este es un perfil de demostración. Los datos no corresponden a un negocio real.</div>
+
+      <div class="profile-cover" id="profile-cover"></div>
+
+      <div class="profile-header">
+        <img id="profile-logo" class="profile-logo" alt="" loading="lazy" />
+        <div class="profile-title">
+          <h1 class="serif" id="profile-nombre"></h1>
+          <div class="profile-meta">
+            <span id="profile-verificado" hidden class="prof-verificado">✓ Verificado</span>
+            <span id="profile-rating"></span>
+            <span id="profile-ubicacion"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-grid">
+        <div class="profile-main">
+          <section id="sobre">
+            <h2>Sobre nosotros</h2>
+            <p class="descripcion" id="profile-descripcion"></p>
+          </section>
+
+          <section id="servicios">
+            <h2>Servicios</h2>
+            <div id="servicios-list"></div>
+          </section>
+
+          <section id="galeria" hidden>
+            <h2>Galería</h2>
+            <div class="galeria-grid" id="galeria-grid"></div>
+          </section>
+        </div>
+
+        <aside class="profile-side">
+          <section id="info">
+            <h2>Información</h2>
+            <ul class="info-list" id="info-list"></ul>
+          </section>
+
+          <section id="horario-section">
+            <h2>Horario</h2>
+            <ul class="horario-list" id="horario-list"></ul>
+          </section>
+
+          <section id="mapa-section" hidden>
+            <h2>Cómo llegar</h2>
+            <div class="mapa-embed" id="mapa-embed"></div>
+          </section>
+
+          <div class="profile-cta">
+            <button type="button" class="btn btn-gold btn-lg" id="btn-reservar-cita">Reservar cita</button>
+            <p class="profile-cta-note">Preparado para conectar con la agenda real de Velsy.</p>
+          </div>
+        </aside>
+      </div>
+    </main>
+  </div>
+
+  <section class="mkt-cta-pro">
+    <div class="wrap">
+      <h2 class="serif">¿Tienes un negocio?</h2>
+      <p>Haz que nuevos clientes puedan encontrarte en Velsy.</p>
+      <a href="https://app.velsy.es/register" class="btn btn-gold btn-lg">Quiero aparecer en Velsy</a>
+    </div>
+  </section>
+
+  <footer class="mkt-footer">
+    <span>© 2026 velsy · Encuentra tu servicio</span>
+    <span>Diseñado y desarrollado por <a href="https://www.tecnovistadigital.com" target="_blank" rel="noopener noreferrer">Tecnovista Digital</a></span>
+  </footer>
+
+  <script src="../common.js?v=4"></script>
+  <script src="../booking-service.js?v=4"></script>
+  <script src="perfil.js?v=4"></script>
+</body>
+</html>

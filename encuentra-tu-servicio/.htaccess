@@ -1,0 +1,17 @@
+# Velsy · Encuentra tu servicio
+# Convierte /encuentra-tu-servicio/nombre-del-negocio/ en la ficha real
+# /encuentra-tu-servicio/perfil/index.html?slug=nombre-del-negocio
+# sin mover al usuario de URL (rewrite interno, no redirección).
+#
+# Si por lo que sea Hostinger no tuviera mod_rewrite activo, las fichas
+# siguen funcionando igualmente en /encuentra-tu-servicio/perfil/?slug=... —
+# ver README-MANTENIMIENTO.md.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /encuentra-tu-servicio/
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^([a-z0-9-]+)/?$ perfil/index.html?slug=$1 [QSA,L]
+</IfModule>

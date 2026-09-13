@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg viewBox='0 0 64 66' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2,2 L18,2 L34,63 L30,63 Z' fill='%23111111'/%3E%3Cpath d='M62,2 L46,2 L30,63 L34,63 Z' fill='%23111111'/%3E%3Crect x='0' y='0' width='20' height='6' fill='%23111111'/%3E%3Crect x='44' y='0' width='20' height='6' fill='%23111111'/%3E%3Ccircle cx='44' cy='13' r='5' fill='%23c9a227'/%3E%3Cpath d='M20,28 C22,42 29,56 32,62 C33,56 38,44 44,21' stroke='%23c9a227' stroke-width='4.5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E" />
+
+  <title>Encuentra tu servicio | Profesionales de bienestar cerca de ti · velsy</title>
+  <meta name="description" content="Busca profesionales de estética, osteopatía, peluquería, masajes y fisioterapia por ciudad o código postal. Compara servicios, precios y valoraciones en velsy." />
+  <link rel="canonical" href="https://velsy.es/encuentra-tu-servicio/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Encuentra tu servicio | velsy" />
+  <meta property="og:description" content="Descubre profesionales de bienestar cerca de ti y encuentra el tratamiento que necesitas." />
+  <meta property="og:url" content="https://velsy.es/encuentra-tu-servicio/" />
+
+  <link rel="stylesheet" href="styles.css?v=4" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://velsy.es/" },
+      { "@type": "ListItem", "position": 2, "name": "Encuentra tu servicio", "item": "https://velsy.es/encuentra-tu-servicio/" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <header class="mkt-nav">
+    <a href="https://velsy.es/" class="mkt-logo">
+      <svg width="26" height="27" viewBox="0 0 64 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2,2 L18,2 L34,63 L30,63 Z" fill="#111111"/>
+        <path d="M62,2 L46,2 L30,63 L34,63 Z" fill="#111111"/>
+        <rect x="0" y="0" width="20" height="6" fill="#111111"/>
+        <rect x="44" y="0" width="20" height="6" fill="#111111"/>
+        <circle cx="44" cy="13" r="5" fill="#c9a227"/>
+        <path d="M20,28 C22,42 29,56 32,62 C33,56 38,44 44,21" stroke="#c9a227" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+      </svg>
+      <span class="mkt-logo-text">velsy</span>
+    </a>
+    <ul class="mkt-nav-links">
+      <li><a href="https://velsy.es/#caracteristicas">Características</a></li>
+      <li><a href="https://velsy.es/#precios">Precios</a></li>
+      <li><a href="https://velsy.es/#especialidades">Especialidades</a></li>
+      <li><a href="/encuentra-tu-servicio/" aria-current="page">Encuentra tu servicio</a></li>
+      <li><a href="https://velsy.es/#contacto">Contacto</a></li>
+    </ul>
+    <a href="https://app.velsy.es/register" class="btn btn-gold">Empezar gratis</a>
+  </header>
+
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <a href="https://velsy.es/">Inicio</a><span class="sep">›</span><span aria-current="page">Encuentra tu servicio</span>
+  </nav>
+
+  <section class="mkt-hero">
+    <p class="eyebrow">Marketplace velsy</p>
+    <h1 class="serif">Encuentra tu servicio</h1>
+    <p class="mkt-hero-sub">Descubre profesionales cerca de ti y encuentra el tratamiento que necesitas.</p>
+
+    <form id="search-form" class="search-box" role="search" autocomplete="off">
+      <div class="search-field">
+        <label for="q-tratamiento">¿Qué servicio buscas?</label>
+        <input
+          id="q-tratamiento"
+          name="tratamiento"
+          type="text"
+          placeholder="Ej. limpieza facial, masaje, manicura…"
+          role="combobox"
+          aria-expanded="false"
+          aria-controls="autocomplete-list"
+          aria-autocomplete="list"
+        />
+        <ul id="autocomplete-list" class="autocomplete-list" role="listbox" hidden></ul>
+      </div>
+      <div class="search-field">
+        <label for="q-ubicacion">¿Dónde?</label>
+        <input id="q-ubicacion" name="ubicacion" type="text" placeholder="Ciudad o código postal" />
+      </div>
+      <button type="submit" class="btn btn-gold btn-lg search-submit">Buscar</button>
+    </form>
+
+    <div class="geoloc-row">
+      <button type="button" id="btn-geoloc" class="btn-geoloc">📍 Usar mi ubicación</button>
+      <p id="geoloc-msg" class="geoloc-msg" role="status" aria-live="polite" hidden></p>
+    </div>
+  </section>
+
+  <section class="mkt-section" id="destacados-section" hidden>
+    <h2 class="serif">Profesionales destacados</h2>
+    <div id="destacados-grid" class="cards-grid"></div>
+  </section>
+
+  <section class="mkt-section" id="results-section">
+    <div class="results-head">
+      <h2 class="serif" id="results-title">Busca un servicio y descubre profesionales cerca de ti</h2>
+      <div class="results-controls" id="results-controls" hidden>
+        <button type="button" class="btn-ghost" id="btn-filtros" aria-expanded="false" aria-controls="filtros-panel">Filtros</button>
+        <label>
+          Ordenar por
+          <select id="orden-select" aria-label="Ordenar resultados por">
+            <option value="relevancia">Relevancia</option>
+            <option value="valoracion">Mejor valorados</option>
+            <option value="cercania">Más cercanos</option>
+            <option value="precio-asc">Precio más bajo</option>
+            <option value="precio-desc">Precio más alto</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="filtros-panel" id="filtros-panel" hidden>
+      <div class="filtro-group">
+        <label for="f-tratamiento">Tratamiento</label>
+        <select id="f-tratamiento"><option value="">Todos</option></select>
+      </div>
+      <div class="filtro-group">
+        <label for="f-ciudad">Ciudad</label>
+        <input id="f-ciudad" type="text" placeholder="Ej. Madrid" />
+      </div>
+      <div class="filtro-group">
+        <label for="f-cp">Código postal</label>
+        <input id="f-cp" type="text" placeholder="Ej. 28013" />
+      </div>
+      <div class="filtro-group">
+        <label for="f-precio">Precio máximo</label>
+        <select id="f-precio">
+          <option value="">Sin límite</option>
+          <option value="20">Hasta 20 €</option>
+          <option value="40">Hasta 40 €</option>
+          <option value="60">Hasta 60 €</option>
+          <option value="100">Hasta 100 €</option>
+        </select>
+      </div>
+      <div class="filtro-group">
+        <label for="f-valoracion">Valoración mínima</label>
+        <select id="f-valoracion">
+          <option value="">Cualquiera</option>
+          <option value="4.5">4,5 o más</option>
+          <option value="4">4 o más</option>
+          <option value="3.5">3,5 o más</option>
+        </select>
+      </div>
+      <div class="filtro-check">
+        <input type="checkbox" id="f-disponibilidad" />
+        <label for="f-disponibilidad">Solo con reserva online disponible</label>
+      </div>
+      <div class="filtro-actions">
+        <button type="button" class="btn-ghost" id="btn-limpiar-filtros">Limpiar filtros</button>
+      </div>
+    </div>
+
+    <div id="state-initial" class="state-block">
+      <div class="state-icon">🔍</div>
+      <h3>Busca un servicio y descubre profesionales cerca de ti</h3>
+      <p>Escribe un tratamiento o una ciudad arriba, o elige una categoría para empezar.</p>
+      <div class="categoria-chips" id="categoria-chips"></div>
+    </div>
+
+    <div id="state-empty" class="state-block" hidden>
+      <div class="state-icon">🙁</div>
+      <h3>No hemos encontrado profesionales para esta búsqueda</h3>
+      <p>Prueba a cambiar el tratamiento o ampliar la ubicación.</p>
+    </div>
+
+    <div id="state-error" class="state-block is-error" hidden>
+      <div class="state-icon">⚠️</div>
+      <h3>No hemos podido cargar los resultados</h3>
+      <p>Ha ocurrido un problema al cargar la información. Inténtalo de nuevo en unos segundos.</p>
+    </div>
+
+    <div id="results-grid" class="cards-grid" hidden></div>
+  </section>
+
+  <section class="mkt-cta-pro">
+    <div class="wrap">
+      <h2 class="serif">¿Tienes un negocio?</h2>
+      <p>Haz que nuevos clientes puedan encontrarte en Velsy.</p>
+      <a href="https://app.velsy.es/register" class="btn btn-gold btn-lg">Quiero aparecer en Velsy</a>
+    </div>
+  </section>
+
+  <footer class="mkt-footer">
+    <span>© 2026 velsy · Encuentra tu servicio</span>
+    <span>Diseñado y desarrollado por <a href="https://www.tecnovistadigital.com" target="_blank" rel="noopener noreferrer">Tecnovista Digital</a></span>
+  </footer>
+
+  <script src="common.js?v=4"></script>
+  <script src="booking-service.js?v=4"></script>
+  <script src="search.js?v=4"></script>
+</body>
+</html>

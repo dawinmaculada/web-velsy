@@ -1,0 +1,7 @@
+[
+  { "slug": "estetica", "nombre": "Estética", "icono": "✨" },
+  { "slug": "osteopatia", "nombre": "Osteopatía", "icono": "🦴" },
+  { "slug": "peluqueria", "nombre": "Peluquería", "icono": "✂️" },
+  { "slug": "masajes-bienestar", "nombre": "Masajes y bienestar", "icono": "💆" },
+  { "slug": "fisioterapia", "nombre": "Fisioterapia", "icono": "🩺" }
+]

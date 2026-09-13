@@ -1,0 +1,22 @@
+[
+  { "slug": "limpieza-facial", "nombre": "Limpieza facial", "categoriaSlug": "estetica" },
+  { "slug": "depilacion-laser", "nombre": "Depilación láser", "categoriaSlug": "estetica" },
+  { "slug": "radiofrecuencia-facial", "nombre": "Radiofrecuencia facial", "categoriaSlug": "estetica" },
+  { "slug": "hidrafacial", "nombre": "Hidrafacial", "categoriaSlug": "estetica" },
+  { "slug": "manicura", "nombre": "Manicura", "categoriaSlug": "estetica" },
+  { "slug": "pedicura", "nombre": "Pedicura", "categoriaSlug": "estetica" },
+  { "slug": "osteopatia-estructural", "nombre": "Osteopatía estructural", "categoriaSlug": "osteopatia" },
+  { "slug": "osteopatia-visceral", "nombre": "Osteopatía visceral", "categoriaSlug": "osteopatia" },
+  { "slug": "osteopatia-craneosacral", "nombre": "Osteopatía craneosacral", "categoriaSlug": "osteopatia" },
+  { "slug": "corte-de-pelo", "nombre": "Corte de pelo", "categoriaSlug": "peluqueria" },
+  { "slug": "coloracion", "nombre": "Coloración", "categoriaSlug": "peluqueria" },
+  { "slug": "mechas", "nombre": "Mechas", "categoriaSlug": "peluqueria" },
+  { "slug": "peinado-eventos", "nombre": "Peinado de eventos", "categoriaSlug": "peluqueria" },
+  { "slug": "masaje-descontracturante", "nombre": "Masaje descontracturante", "categoriaSlug": "masajes-bienestar" },
+  { "slug": "masaje-deportivo", "nombre": "Masaje deportivo", "categoriaSlug": "masajes-bienestar" },
+  { "slug": "masaje-relajante", "nombre": "Masaje relajante", "categoriaSlug": "masajes-bienestar" },
+  { "slug": "drenaje-linfatico", "nombre": "Drenaje linfático", "categoriaSlug": "masajes-bienestar" },
+  { "slug": "clases-de-yoga", "nombre": "Clases de yoga", "categoriaSlug": "masajes-bienestar" },
+  { "slug": "fisioterapia-deportiva", "nombre": "Fisioterapia deportiva", "categoriaSlug": "fisioterapia" },
+  { "slug": "rehabilitacion", "nombre": "Rehabilitación", "categoriaSlug": "fisioterapia" }
+]
