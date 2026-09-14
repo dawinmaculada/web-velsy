@@ -82,36 +82,10 @@
     "reserva": { "habilitada": false, "url": null, "employeeId": null },
     "esDemo": false
   },
-  {
-    "id": "prof_0002",
-    "slug": "Peluqueria rizos",
-    "nombre": "Peluqieria Rizos",
-    "categoriaSlug": "peluqueria",
-    "descripcion": "",
-    "direccion": "Avenida Demostración, 22",
-    "ciudad": "Madrid",
-    "provincia": "Madrid",
-    "codigoPostal": "28045",
-    "coordenadas": { "lat": 40.4055, "lng": -3.6980 },
-    "contacto": { "telefono": "900 100 002", "email": "centro02@demo.velsy.es", "web": "https://velsy.es", "instagram": null },
-    "imagenes": { "logo": null, "portada": null, "galeria": [] },
-    "tratamientos": ["osteopatia-estructural", "osteopatia-visceral"],
-    "servicios": [
-      { "tratamientoSlug": "osteopatia-estructural", "nombre": "Sesión de osteopatía estructural", "descripcion": "Valoración y tratamiento manual del sistema musculoesquelético.", "precioDesde": 45, "duracionMin": 50 },
-      { "tratamientoSlug": "osteopatia-visceral", "nombre": "Sesión de osteopatía visceral", "descripcion": "Técnicas manuales orientadas a la movilidad visceral.", "precioDesde": 50, "duracionMin": 50 }
-    ],
-    "valoracion": { "media": 4.6, "numOpiniones": 18 },
-    "destacado": false,
-    "verificado": true,
-    "activo": true,
-    "horario": { "lun": "10:00–19:00", "mar": "10:00–19:00", "mie": "10:00–19:00", "jue": "10:00–19:00", "vie": "10:00–15:00", "sab": "Cerrado", "dom": "Cerrado" },
-    "disponibilidad": null,
-    "reserva": { "habilitada": false, "url": null, "employeeId": null },
-    "esDemo": true
-  },
+  
   {
     "id": "prof_0003",
-    "slug": "Peluqueria rizos",
+    "slug": "peluqueria-rizos",
     "nombre": "Peluqueria Rizos",
     "categoriaSlug": "peluqueria",
     "descripcion": "",
@@ -121,7 +95,7 @@
     "codigoPostal": "45600",
     "coordenadas": { "lat": 39.9625, "lng": -4.8290 },
     "contacto": { "telefono": "900 100 003", "email": "centro03@demo.velsy.es", "web": null, "instagram": "velsydemo" },
-    "imagenes": { "logo": null, "portada": null, "galeria": [] },
+    "imagenes": { "logo": "assets/profesionales/logos/logo-rizos.jpg", "portada": "assets/profesionales/logos/logo-rizos.jpg", "galeria": [] },
     "tratamientos": ["corte-de-pelo", "coloracion", "mechas", "peinado-eventos"],
     "servicios": [
       { "tratamientoSlug": "corte-de-pelo", "nombre": "Corte de pelo", "descripcion": "Corte adaptado a tu tipo de cabello." },
@@ -134,7 +108,7 @@
     "activo": true,
     "horario": { "lun": "Cerrado", "mar": "09:30–13:30, 16:30–20:00", "mie": "09:30–13:30, 16:30–20:00", "jue": "09:30–13:30, 16:30–20:00", "vie": "09:30–13:30, 16:30–20:00", "sab": "09:00–14:00", "dom": "Cerrado" },
     "disponibilidad": null,
-    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "reserva": { "habilitada": true, "url": null, "employeeId": null },
     "esDemo": false
   },
   {
@@ -164,33 +138,7 @@
     "reserva": { "habilitada": false, "url": null, "employeeId": null },
     "esDemo": true
   },
-  {
-    "id": "prof_0005",
-    "slug": "centro-demo-velsy-05",
-    "nombre": "Centro Demo Velsy 05",
-    "categoriaSlug": "fisioterapia",
-    "descripcion": "Perfil de demostración. Clínica de fisioterapia deportiva y rehabilitación en Barcelona.",
-    "direccion": "Rambla Demostración, 100",
-    "ciudad": "Barcelona",
-    "provincia": "Barcelona",
-    "codigoPostal": "08002",
-    "coordenadas": { "lat": 41.3850, "lng": 2.1700 },
-    "contacto": { "telefono": "900 100 005", "email": "centro05@demo.velsy.es", "web": "https://velsy.es", "instagram": "velsydemo" },
-    "imagenes": { "logo": null, "portada": null, "galeria": [] },
-    "tratamientos": ["fisioterapia-deportiva", "rehabilitacion"],
-    "servicios": [
-      { "tratamientoSlug": "fisioterapia-deportiva", "nombre": "Sesión de fisioterapia deportiva", "descripcion": "Tratamiento de lesiones deportivas y readaptación.", "precioDesde": 40, "duracionMin": 45 },
-      { "tratamientoSlug": "rehabilitacion", "nombre": "Sesión de rehabilitación", "descripcion": "Recuperación funcional tras lesión o cirugía.", "precioDesde": 38, "duracionMin": 45 }
-    ],
-    "valoracion": { "media": 4.9, "numOpiniones": 41 },
-    "destacado": true,
-    "verificado": true,
-    "activo": true,
-    "horario": { "lun": "08:00–20:00", "mar": "08:00–20:00", "mie": "08:00–20:00", "jue": "08:00–20:00", "vie": "08:00–18:00", "sab": "09:00–13:00", "dom": "Cerrado" },
-    "disponibilidad": null,
-    "reserva": { "habilitada": false, "url": null, "employeeId": null },
-    "esDemo": true
-  },
+  
   {
     "id": "prof_0006",
     "slug": "centro-demo-velsy-06",
