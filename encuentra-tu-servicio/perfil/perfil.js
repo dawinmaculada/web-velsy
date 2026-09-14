@@ -21,7 +21,24 @@
     return '/encuentra-tu-servicio/' + relPath;
   }
 
-  var slug = new URLSearchParams(window.location.search).get('slug');
+  /**
+   * El .htaccess reescribe /encuentra-tu-servicio/{slug}/ hacia
+   * perfil/index.html?slug={slug} DENTRO del servidor, pero eso es invisible
+   * para el navegador: la barra de direcciones sigue mostrando la URL bonita
+   * SIN "?slug=", así que window.location.search llega vacío. Por eso, si no
+   * hay slug en la query string, se saca directamente del último tramo de la
+   * URL (ignorando "perfil", que es la propia carpeta de la plantilla).
+   */
+  function getSlugFromUrl() {
+    var qsSlug = new URLSearchParams(window.location.search).get('slug');
+    if (qsSlug) return qsSlug;
+    var parts = window.location.pathname.replace(/\/+$/, '').split('/').filter(Boolean);
+    var last = parts[parts.length - 1];
+    if (last && last !== 'perfil' && last !== 'encuentra-tu-servicio') return decodeURIComponent(last);
+    return null;
+  }
+
+  var slug = getSlugFromUrl();
 
   var els = {
     loading: document.getElementById('state-loading'),
