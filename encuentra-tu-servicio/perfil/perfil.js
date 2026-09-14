@@ -10,13 +10,15 @@
   var V = window.Velsy;
   var DIAS = [['lun', 'Lunes'], ['mar', 'Martes'], ['mie', 'Miércoles'], ['jue', 'Jueves'], ['vie', 'Viernes'], ['sab', 'Sábado'], ['dom', 'Domingo']];
 
-  // Las rutas de imágenes en profesionales.json son relativas a encuentra-tu-servicio/,
-  // pero esta página vive un nivel más adentro (encuentra-tu-servicio/perfil/), así que
-  // hay que subir un nivel salvo que ya sea una URL absoluta.
+  // Esta página se puede ver en dos URLs distintas que muestran rutas relativas
+  // diferentes al navegador: /encuentra-tu-servicio/perfil/?slug=... (acceso directo)
+  // o /encuentra-tu-servicio/{slug}/ (URL bonita, reescrita por .htaccess sin avisar
+  // al navegador). Por eso aquí SIEMPRE se usan rutas absolutas desde la raíz del
+  // sitio, nunca relativas — así funciona igual venga por donde venga.
   function assetPath(relPath) {
     if (!relPath) return null;
     if (/^https?:\/\//i.test(relPath)) return relPath;
-    return '../' + relPath;
+    return '/encuentra-tu-servicio/' + relPath;
   }
 
   var slug = new URLSearchParams(window.location.search).get('slug');
@@ -47,9 +49,9 @@
   if (!slug) { showNotFound(); }
   else {
     Promise.all([
-      V.fetchJSON('../data/profesionales.json'),
-      V.fetchJSON('../data/tratamientos.json'),
-      V.fetchJSON('../data/categorias.json')
+      V.fetchJSON('/encuentra-tu-servicio/data/profesionales.json'),
+      V.fetchJSON('/encuentra-tu-servicio/data/tratamientos.json'),
+      V.fetchJSON('/encuentra-tu-servicio/data/categorias.json')
     ]).then(function (results) {
       var profesionales = results[0], tratamientos = results[1], categorias = results[2];
       var tratamientosBySlug = {};
