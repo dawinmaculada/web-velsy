@@ -1,5 +1,33 @@
 [
   {
+    "id": "prof_0010",
+    "slug": "osteopatia-davinci-alcorcon",
+    "nombre": "Davinci Osteopatía y Kinesiología",
+    "categoriaSlug": "osteopatia",
+    "descripcion": "Centro de osteopatía y kinesiología en Alcorcón, fundado en 2016. El profesional está inscrito en la Organización Colegial de Osteópatas de España (OCOE) con el número 351. Trabaja osteopatía estructural, visceral y craneal, además de kinesiología aplicada y quiromasaje.",
+    "direccion": "Calle Timanfaya, 18",
+    "ciudad": "Alcorcón",
+    "provincia": "Madrid",
+    "codigoPostal": "28924",
+    "coordenadas": { "lat": 40.3481093, "lng": -3.8110657 },
+    "contacto": { "telefono": "622 56 03 13", "email": "info@osteopatiadavinci.com", "web": "https://osteopatiadavinci.com", "instagram": "osteopatiadavinci" },
+    "imagenes": { "logo": null, "portada": null, "galeria": [] },
+    "tratamientos": ["osteopatia-estructural", "osteopatia-visceral", "osteopatia-craneal", "kinesiologia-aplicada", "quiromasaje"],
+    "servicios": [
+      { "tratamientoSlug": "osteopatia-estructural", "nombre": "Sesión de osteopatía", "descripcion": "Osteopatía estructural, visceral o craneal según necesidad.", "precioDesde": 70, "duracionMin": null },
+      { "tratamientoSlug": "kinesiologia-aplicada", "nombre": "Kinesiología aplicada", "descripcion": "Sesión de kinesiología aplicada.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "quiromasaje", "nombre": "Quiromasaje", "descripcion": "Sesión de quiromasaje.", "precioDesde": null, "duracionMin": null }
+    ],
+    "valoracion": { "media": 0, "numOpiniones": 0 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "Horario no publicado", "mar": "Horario no publicado", "mie": "Horario no publicado", "jue": "Horario no publicado", "vie": "Horario no publicado", "sab": "Horario no publicado", "dom": "Horario no publicado" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "esDemo": false
+  },
+  {
     "id": "prof_0009",
     "slug": "osteopatia-indalo-madrid",
     "nombre": "Osteopatía Indalo",

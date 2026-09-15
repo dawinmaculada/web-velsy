@@ -8,6 +8,8 @@
   { "slug": "osteopatia-estructural", "nombre": "Osteopatía estructural", "categoriaSlug": "osteopatia" },
   { "slug": "osteopatia-visceral", "nombre": "Osteopatía visceral", "categoriaSlug": "osteopatia" },
   { "slug": "osteopatia-craneosacral", "nombre": "Osteopatía craneosacral", "categoriaSlug": "osteopatia" },
+  { "slug": "osteopatia-craneal", "nombre": "Osteopatía craneal", "categoriaSlug": "osteopatia" },
+  { "slug": "kinesiologia-aplicada", "nombre": "Kinesiología aplicada", "categoriaSlug": "osteopatia" },
   { "slug": "corte-de-pelo", "nombre": "Corte de pelo", "categoriaSlug": "peluqueria" },
   { "slug": "coloracion", "nombre": "Coloración", "categoriaSlug": "peluqueria" },
   { "slug": "mechas", "nombre": "Mechas", "categoriaSlug": "peluqueria" },
@@ -17,6 +19,7 @@
   { "slug": "masaje-relajante", "nombre": "Masaje relajante", "categoriaSlug": "masajes-bienestar" },
   { "slug": "drenaje-linfatico", "nombre": "Drenaje linfático", "categoriaSlug": "masajes-bienestar" },
   { "slug": "clases-de-yoga", "nombre": "Clases de yoga", "categoriaSlug": "masajes-bienestar" },
+  { "slug": "quiromasaje", "nombre": "Quiromasaje", "categoriaSlug": "masajes-bienestar" },
   { "slug": "fisioterapia-deportiva", "nombre": "Fisioterapia deportiva", "categoriaSlug": "fisioterapia" },
   { "slug": "rehabilitacion", "nombre": "Rehabilitación", "categoriaSlug": "fisioterapia" }
 ]
