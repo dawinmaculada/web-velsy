@@ -11,7 +11,11 @@
     "codigoPostal": "28924",
     "coordenadas": { "lat": 40.3481093, "lng": -3.8110657 },
     "contacto": { "telefono": "622 56 03 13", "email": "info@osteopatiadavinci.com", "web": "https://osteopatiadavinci.com", "instagram": "osteopatiadavinci" },
-    "imagenes": { "logo": null, "portada": null, "galeria": [] },
+    "imagenes": {
+      "logo": "assets/profesionales/logos/osteopatia-davinci-alcorcon.png",
+      "portada": "assets/profesionales/galeria/da-vinci/portada.jpg",
+      "galeria": ["assets/profesionales/galeria/da-vinci/portada.jpg"]
+    },
     "tratamientos": ["osteopatia-estructural", "osteopatia-visceral", "osteopatia-craneal", "kinesiologia-aplicada", "quiromasaje"],
     "servicios": [
       { "tratamientoSlug": "osteopatia-estructural", "nombre": "Sesión de osteopatía", "descripcion": "Osteopatía estructural, visceral o craneal según necesidad.", "precioDesde": 70, "duracionMin": null },
