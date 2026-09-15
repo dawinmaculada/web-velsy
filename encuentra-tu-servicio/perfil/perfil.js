@@ -117,12 +117,11 @@
     var esLogoComoPortada = !!p.imagenes.portada && p.imagenes.portada === p.imagenes.logo;
     var coverImg = V.h('img', {
       src: assetPath(p.imagenes.portada) || V.avatarDataUri(p.nombre, { variant: 'cover', size: 800 }),
-      alt: '', loading: 'lazy'
+      alt: ''
     }, []);
     V.withImageFallback(coverImg, p.nombre, 'cover');
     els.cover.appendChild(coverImg);
     if (esLogoComoPortada) els.cover.classList.add('is-contained');
-    else V.adaptFit(coverImg, els.cover, 'is-contained');
 
     els.logo.src = assetPath(p.imagenes.logo) || V.avatarDataUri(p.nombre, { size: 128 });
     V.withImageFallback(els.logo, p.nombre, 'logo');
@@ -157,6 +156,11 @@
 
     els.loading.hidden = true;
     els.content.hidden = false;
+
+    // El cálculo de encaje necesita medir la caja ya visible (con "hidden"
+    // puesto, mediría 0 y nunca detectaría que la foto no encaja bien).
+    if (!esLogoComoPortada) V.adaptFit(coverImg, els.cover, 'is-contained');
+
     V.track('view_professional', { professionalId: p.id, slug: p.slug });
   }
 
