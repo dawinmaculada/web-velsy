@@ -1,5 +1,89 @@
 [
   {
+    "id": "prof_0012",
+    "slug": "purpura-talavera",
+    "nombre": "Estilistas Púrpura",
+    "categoriaSlug": "peluqueria",
+    "descripcion": "Peluquería y centro de bienestar estético en Talavera de la Reina con más de 13 años de trayectoria. Dirigido por Ana Belén, con más de 24 años de experiencia especializada en colorimetría profesional. Trabajan color personalizado (mechas, balayage, corrección de color), corte y peinado adaptados a cada rostro, maquillaje profesional para eventos y presoterapia.",
+    "direccion": "Calle Cañada de la Sierra, 69",
+    "ciudad": "Talavera de la Reina",
+    "provincia": "Toledo",
+    "codigoPostal": "45600",
+    "coordenadas": { "lat": 39.9641736, "lng": -4.8403570 },
+    "contacto": { "telefono": "667 45 35 54", "email": "estilistaspurpura@gmail.com", "web": "https://estilistaspurpura.es", "instagram": "estilistas_purpura" },
+    "imagenes": {
+      "logo": "assets/profesionales/logos/purpura-talavera-logo.png",
+      "portada": "assets/profesionales/galeria/purpura/portada-banner.jpg",
+      "galeria": [
+        "assets/profesionales/galeria/purpura/1-salon.jpg",
+        "assets/profesionales/galeria/purpura/2-trabajo-color.jpg",
+        "assets/profesionales/galeria/purpura/3-trabajo-color-2.jpg",
+        "assets/profesionales/galeria/purpura/4-peinado.jpg",
+        "assets/profesionales/galeria/purpura/5-color.jpg",
+        "assets/profesionales/galeria/purpura/6-color-2.jpg",
+        "assets/profesionales/galeria/purpura/7-estilo.jpg",
+        "assets/profesionales/galeria/purpura/8-estilo-2.jpg"
+      ]
+    },
+    "tratamientos": ["corte-de-pelo", "coloracion"],
+    "servicios": [
+      { "tratamientoSlug": "corte-de-pelo", "nombre": "Corte de pelo", "descripcion": "Corte de pelo adaptado a cada cliente.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "coloracion", "nombre": "Tinte", "descripcion": "Coloración y tintes especializados.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "coloracion", "nombre": "Decoloración", "descripcion": "Decoloraciones, especialistas en color.", "precioDesde": null, "duracionMin": null }
+    ],
+    "valoracion": { "media": 0, "numOpiniones": 0 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "Horario no publicado", "mar": "Horario no publicado", "mie": "Horario no publicado", "jue": "Horario no publicado", "vie": "Horario no publicado", "sab": "Horario no publicado", "dom": "Horario no publicado" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "esDemo": false
+  },
+  {
+    "id": "prof_0011",
+    "slug": "virginia-guerrero-madrid",
+    "nombre": "Virginia Guerrero Estética Integral",
+    "categoriaSlug": "estetica",
+    "descripcion": "Centro de estética avanzada en Madrid con más de 20 años de experiencia, especializado en tratamientos corporales y faciales, IPL y estética en general. Consulta personalizada para determinar el tratamiento más adecuado en cada caso.",
+    "direccion": "Calle Melchor Fernández Almagro, 56, local 3 lateral",
+    "ciudad": "Madrid",
+    "provincia": "Madrid",
+    "codigoPostal": "28029",
+    "coordenadas": { "lat": 40.4767221, "lng": -3.7060779 },
+    "contacto": { "telefono": "687 83 11 59", "email": "citas@virginiaguerrero.com", "web": "", "instagram": "" },
+    "imagenes": {
+      "logo": "assets/profesionales/logos/virginia-guerrero-madrid.png",
+      "portada": "assets/profesionales/galeria/virginia-guerrero/virginia.webp",
+      "galeria": [
+        "assets/profesionales/galeria/virginia-guerrero/virginia.webp",
+        "assets/profesionales/galeria/virginia-guerrero/1-clinica-estetica-madrid.webp",
+        "assets/profesionales/galeria/virginia-guerrero/2-tratamientos-belleza-madrid.webp",
+        "assets/profesionales/galeria/virginia-guerrero/3-centro-de-belleza.webp",
+        "assets/profesionales/galeria/virginia-guerrero/4-tratamientos-faciales-madrid.webp",
+        "assets/profesionales/galeria/virginia-guerrero/5-remodelacion-corporal-madrid.webp",
+        "assets/profesionales/galeria/virginia-guerrero/6-manicura-y-pedicura.webp",
+        "assets/profesionales/galeria/virginia-guerrero/7-tratamiento-facial-virginia-guerrero.webp"
+      ]
+    },
+    "tratamientos": ["depilacion-laser", "radiofrecuencia-facial", "limpieza-facial", "manicura", "pedicura"],
+    "servicios": [
+      { "tratamientoSlug": "depilacion-laser", "nombre": "Depilación IPL / láser", "descripcion": "Depilación con luz pulsada intensa (IPL).", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "radiofrecuencia-facial", "nombre": "Radiofrecuencia", "descripcion": "Tratamiento de radiofrecuencia y ultracavitación corporal o facial.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "limpieza-facial", "nombre": "Tratamiento facial", "descripcion": "Tratamientos faciales y de rejuvenecimiento cutáneo, dermoabrasión y mesoterapia.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "manicura", "nombre": "Manicura", "descripcion": "Servicio de manicura.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "pedicura", "nombre": "Pedicura", "descripcion": "Servicio de pedicura.", "precioDesde": null, "duracionMin": null }
+    ],
+    "valoracion": { "media": 0, "numOpiniones": 0 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "09:00–19:00", "mar": "09:00–19:00", "mie": "09:00–19:00", "jue": "09:00–19:00", "vie": "09:00–19:00", "sab": "Cerrado", "dom": "Cerrado" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "esDemo": false
+  },
+  {
     "id": "prof_0010",
     "slug": "osteopatia-davinci-alcorcon",
     "nombre": "Davinci Osteopatía y Kinesiología",
