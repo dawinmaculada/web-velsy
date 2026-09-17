@@ -1,5 +1,56 @@
 [
   {
+    "id": "prof_0013",
+    "slug": "manicura-madrid-by-anna",
+    "nombre": "Manicura Madrid by Anna",
+    "categoriaSlug": "estetica",
+    "descripcion": "Estudio de manicura y pedicura en Madrid (metro Abrantes) llevado por Anna Konovalova. Especialista en manicura rusa, semipermanente y extensión de uñas en gel en varios tamaños.",
+    "direccion": "Cerca de Metro Abrantes",
+    "ciudad": "Madrid",
+    "provincia": "Madrid",
+    "codigoPostal": "28025",
+    "coordenadas": { "lat": 40.3806935, "lng": -3.7284219 },
+    "contacto": { "telefono": "662 42 35 51", "email": null, "web": null, "instagram": "manicura.madrid_by_anna" },
+    "imagenes": {
+      "logo": null,
+      "portada": "assets/profesionales/galeria/manicura-madrid-by-anna/portada-banner.jpg",
+      "galeria": [
+        "assets/profesionales/galeria/manicura-madrid-by-anna/5-negro-chanel.png",
+        "assets/profesionales/galeria/manicura-madrid-by-anna/2-blanco-nacarado.png",
+        "assets/profesionales/galeria/manicura-madrid-by-anna/3-leopardo-rosa.png",
+        "assets/profesionales/galeria/manicura-madrid-by-anna/4-francesa-roja.png",
+        "assets/profesionales/galeria/manicura-madrid-by-anna/1-nude-natural.png"
+      ]
+    },
+    "tratamientos": ["manicura", "extension-de-unas", "pedicura"],
+    "servicios": [
+      { "tratamientoSlug": "manicura", "nombre": "Manicura rusa sin esmalte", "descripcion": "Manicura rusa sin esmaltado.", "precioDesde": 25, "duracionMin": null },
+      { "tratamientoSlug": "manicura", "nombre": "Manicura masculina", "descripcion": "Manicura adaptada para hombre.", "precioDesde": 30, "duracionMin": null },
+      { "tratamientoSlug": "manicura", "nombre": "Manicura rusa semipermanente (un tono)", "descripcion": "Manicura rusa con esmaltado semipermanente de un solo tono.", "precioDesde": 45, "duracionMin": null },
+      { "tratamientoSlug": "manicura", "nombre": "Manicura con francesa", "descripcion": "Manicura con diseño de francesa.", "precioDesde": 50, "duracionMin": null },
+      { "tratamientoSlug": "manicura", "nombre": "Manicura con refuerzo", "descripcion": "Manicura con refuerzo de uña natural.", "precioDesde": 55, "duracionMin": null },
+      { "tratamientoSlug": "manicura", "nombre": "Diseños especiales", "descripcion": "Baby boomer, efecto espejo, perlado u ojo de gato (suplemento sobre el precio de la manicura).", "precioDesde": 5, "duracionMin": null },
+      { "tratamientoSlug": "manicura", "nombre": "Reparación de una uña", "descripcion": "Reparación puntual de una uña.", "precioDesde": 3, "duracionMin": null },
+      { "tratamientoSlug": "extension-de-unas", "nombre": "Extensión de uñas talla S", "descripcion": "Extensión de uñas en gel, tamaño S.", "precioDesde": 60, "duracionMin": null },
+      { "tratamientoSlug": "extension-de-unas", "nombre": "Extensión de uñas talla M", "descripcion": "Extensión de uñas en gel, tamaño M.", "precioDesde": 65, "duracionMin": null },
+      { "tratamientoSlug": "extension-de-unas", "nombre": "Extensión de uñas talla L", "descripcion": "Extensión de uñas en gel, tamaño L.", "precioDesde": 70, "duracionMin": null },
+      { "tratamientoSlug": "extension-de-unas", "nombre": "Extensión de uñas talla XL", "descripcion": "Extensión de uñas en gel, tamaño XL.", "precioDesde": 75, "duracionMin": null },
+      { "tratamientoSlug": "pedicura", "nombre": "Pedicura sin esmalte", "descripcion": "Pedicura sin esmaltado.", "precioDesde": 35, "duracionMin": null },
+      { "tratamientoSlug": "pedicura", "nombre": "Pedicura masculina", "descripcion": "Pedicura adaptada para hombre.", "precioDesde": 40, "duracionMin": null },
+      { "tratamientoSlug": "pedicura", "nombre": "Pedicura smart con semipermanente", "descripcion": "Pedicura smart con esmaltado semipermanente.", "precioDesde": 60, "duracionMin": null },
+      { "tratamientoSlug": "pedicura", "nombre": "Pedicura con francesa", "descripcion": "Pedicura con diseño de francesa.", "precioDesde": 65, "duracionMin": null },
+      { "tratamientoSlug": "pedicura", "nombre": "Reparación de una uña", "descripcion": "Reparación puntual de una uña del pie.", "precioDesde": 5, "duracionMin": null }
+    ],
+    "valoracion": { "media": 0, "numOpiniones": 0 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "Horario no publicado", "mar": "Horario no publicado", "mie": "Horario no publicado", "jue": "Horario no publicado", "vie": "Horario no publicado", "sab": "Horario no publicado", "dom": "Horario no publicado" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "esDemo": false
+  },
+  {
     "id": "prof_0012",
     "slug": "purpura-talavera",
     "nombre": "Estilistas Púrpura",

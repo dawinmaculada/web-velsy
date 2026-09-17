@@ -5,6 +5,7 @@
   { "slug": "hidrafacial", "nombre": "Hidrafacial", "categoriaSlug": "estetica" },
   { "slug": "manicura", "nombre": "Manicura", "categoriaSlug": "estetica" },
   { "slug": "pedicura", "nombre": "Pedicura", "categoriaSlug": "estetica" },
+  { "slug": "extension-de-unas", "nombre": "Extensión de uñas", "categoriaSlug": "estetica" },
   { "slug": "osteopatia-estructural", "nombre": "Osteopatía estructural", "categoriaSlug": "osteopatia" },
   { "slug": "osteopatia-visceral", "nombre": "Osteopatía visceral", "categoriaSlug": "osteopatia" },
   { "slug": "osteopatia-craneosacral", "nombre": "Osteopatía craneosacral", "categoriaSlug": "osteopatia" },
