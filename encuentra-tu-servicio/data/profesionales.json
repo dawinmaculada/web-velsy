@@ -1,5 +1,39 @@
 [
   {
+    "id": "prof_0014",
+    "slug": "encarna-padilla-madrid",
+    "nombre": "Encarna Padilla Estética",
+    "categoriaSlug": "estetica",
+    "descripcion": "Centro de estética avanzada en Madrid con más de 30 años de experiencia. Diagnóstico personalizado antes de cada tratamiento. Además de sus tratamientos principales, también realiza Hollywood Peel, Plasmapen, Hyaluropen, inducción de colágeno, microdermoabrasión y Velasmooth.",
+    "direccion": "Calle Fernán González, 72",
+    "ciudad": "Madrid",
+    "provincia": "Madrid",
+    "codigoPostal": "28009",
+    "coordenadas": { "lat": 40.4165355, "lng": -3.6751147 },
+    "contacto": { "telefono": "915 56 70 51", "email": null, "web": "https://encarnapadilla.com", "instagram": "encarna_padilla_" },
+    "imagenes": {
+      "logo": "assets/profesionales/logos/encarna-padilla-madrid.png",
+      "portada": "assets/profesionales/galeria/encarna-padilla/portada.jpg",
+      "galeria": ["assets/profesionales/galeria/encarna-padilla/portada.jpg"]
+    },
+    "tratamientos": ["hidrafacial", "bioslimming", "hifu-facial", "presoterapia", "mesoterapia"],
+    "servicios": [
+      { "tratamientoSlug": "hidrafacial", "nombre": "Hydrafacial", "descripcion": "Tratamiento facial Hydrafacial.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "bioslimming", "nombre": "Bioslimming", "descripcion": "Tratamiento corporal Bioslimming.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "hifu-facial", "nombre": "Ultherapy (HIFU)", "descripcion": "Tratamiento facial con tecnología HIFU.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "presoterapia", "nombre": "Presoterapia", "descripcion": "Tratamiento corporal de presoterapia.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "mesoterapia", "nombre": "Mesoterapia fraccionada", "descripcion": "Mesoterapia facial fraccionada.", "precioDesde": null, "duracionMin": null }
+    ],
+    "valoracion": { "media": 0, "numOpiniones": 0 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "10:00–20:00", "mar": "10:00–20:00", "mie": "10:00–20:00", "jue": "10:00–20:00", "vie": "10:00–20:00", "sab": "10:00–14:00", "dom": "Cerrado" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "esDemo": false
+  },
+  {
     "id": "prof_0013",
     "slug": "manicura-madrid-by-anna",
     "nombre": "Manicura Madrid by Anna",
