@@ -17,7 +17,9 @@
       "galeria": [
         "assets/profesionales/galeria/encarna-padilla/portada.jpg",
         "assets/profesionales/galeria/encarna-padilla/tratamientos-faciales.jpg",
-        "assets/profesionales/galeria/encarna-padilla/tratamientos-corporales.jpg"
+        "assets/profesionales/galeria/encarna-padilla/tratamientos-corporales.jpg",
+        "assets/profesionales/galeria/encarna-padilla/facial.png",
+        "assets/profesionales/galeria/encarna-padilla/tesla.jpg"
       ]
     },
     "tratamientos": ["hidrafacial", "bioslimming", "hifu-facial", "presoterapia", "mesoterapia"],
