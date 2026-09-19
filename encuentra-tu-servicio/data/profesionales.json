@@ -10,11 +10,15 @@
     "provincia": "Madrid",
     "codigoPostal": "28009",
     "coordenadas": { "lat": 40.4165355, "lng": -3.6751147 },
-    "contacto": { "telefono": "915 56 70 51", "email": null, "web": "https://encarnapadilla.com", "instagram": "encarna_padilla_" },
+    "contacto": { "telefono": "609 391 800", "email": null, "web": "https://encarnapadilla.com", "instagram": "encarna_padilla_" },
     "imagenes": {
       "logo": "assets/profesionales/logos/encarna-padilla-madrid.png",
       "portada": "assets/profesionales/galeria/encarna-padilla/portada.jpg",
-      "galeria": ["assets/profesionales/galeria/encarna-padilla/portada.jpg"]
+      "galeria": [
+        "assets/profesionales/galeria/encarna-padilla/portada.jpg",
+        "assets/profesionales/galeria/encarna-padilla/tratamientos-faciales.jpg",
+        "assets/profesionales/galeria/encarna-padilla/tratamientos-corporales.jpg"
+      ]
     },
     "tratamientos": ["hidrafacial", "bioslimming", "hifu-facial", "presoterapia", "mesoterapia"],
     "servicios": [
