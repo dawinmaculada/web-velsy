@@ -13,6 +13,9 @@
   { "slug": "hilos-tensores", "nombre": "Hilos tensores", "categoriaSlug": "estetica" },
   { "slug": "aumento-labios", "nombre": "Aumento de labios", "categoriaSlug": "estetica" },
   { "slug": "rinomodelacion", "nombre": "Rinomodelación", "categoriaSlug": "estetica" },
+  { "slug": "peeling-quimico", "nombre": "Peeling químico", "categoriaSlug": "estetica" },
+  { "slug": "microneedling", "nombre": "Microneedling", "categoriaSlug": "estetica" },
+  { "slug": "criolipolisis", "nombre": "Criolipólisis", "categoriaSlug": "estetica" },
   { "slug": "osteopatia-estructural", "nombre": "Osteopatía estructural", "categoriaSlug": "osteopatia" },
   { "slug": "osteopatia-visceral", "nombre": "Osteopatía visceral", "categoriaSlug": "osteopatia" },
   { "slug": "osteopatia-craneosacral", "nombre": "Osteopatía craneosacral", "categoriaSlug": "osteopatia" },
@@ -28,6 +31,7 @@
   { "slug": "drenaje-linfatico", "nombre": "Drenaje linfático", "categoriaSlug": "masajes-bienestar" },
   { "slug": "clases-de-yoga", "nombre": "Clases de yoga", "categoriaSlug": "masajes-bienestar" },
   { "slug": "quiromasaje", "nombre": "Quiromasaje", "categoriaSlug": "masajes-bienestar" },
+  { "slug": "maderoterapia", "nombre": "Maderoterapia", "categoriaSlug": "masajes-bienestar" },
   { "slug": "fisioterapia-deportiva", "nombre": "Fisioterapia deportiva", "categoriaSlug": "fisioterapia" },
   { "slug": "rehabilitacion", "nombre": "Rehabilitación", "categoriaSlug": "fisioterapia" }
 ]

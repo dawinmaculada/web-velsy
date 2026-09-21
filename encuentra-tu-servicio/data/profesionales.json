@@ -1,5 +1,46 @@
 [
   {
+    "id": "prof_0016",
+    "slug": "maria-navarra-madrid",
+    "nombre": "Clínica de Belleza María Navarra",
+    "categoriaSlug": "estetica",
+    "descripcion": "Centro de estética dirigido por María Navarra, experta en fisioestética con más de 30 años de trayectoria, en el barrio de La Paz (Madrid). Ofrece tratamientos faciales, corporales, masajes y depilación láser. También realiza Zionic, LPG, masaje con pindas y masaje brasileño con marcaje colombiano.",
+    "direccion": "Calle Villa de Marín, 30",
+    "ciudad": "Madrid",
+    "provincia": "Madrid",
+    "codigoPostal": "28029",
+    "coordenadas": { "lat": 40.4769483, "lng": -3.6978354 },
+    "contacto": { "telefono": "911 27 53 75", "email": "info@clinicadebellezamarianavarra.es", "web": "https://clinicadebellezamarianavarra.es", "instagram": "clinicadebellezamarianavarra" },
+    "imagenes": {
+      "logo": "assets/profesionales/logos/maria-navarra-madrid.webp",
+      "portada": null,
+      "galeria": []
+    },
+    "tratamientos": ["limpieza-facial", "radiofrecuencia-facial", "peeling-quimico", "microneedling", "hifu-facial", "mesoterapia", "presoterapia", "criolipolisis", "maderoterapia", "masaje-descontracturante", "drenaje-linfatico", "depilacion-laser"],
+    "servicios": [
+      { "tratamientoSlug": "limpieza-facial", "nombre": "Limpieza facial profunda", "descripcion": "Limpieza facial profunda.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "radiofrecuencia-facial", "nombre": "Radiofrecuencia Indiba facial", "descripcion": "Radiofrecuencia Indiba facial.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "peeling-quimico", "nombre": "Peeling químico facial (Hollywood Peel)", "descripcion": "Peeling químico facial.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "microneedling", "nombre": "Microneedling facial", "descripcion": "Microneedling facial.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "hifu-facial", "nombre": "Tratamiento Ulthera", "descripcion": "Tratamiento facial con tecnología HIFU (Ulthera).", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "mesoterapia", "nombre": "Mesoterapia corporal", "descripcion": "Mesoterapia corporal.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "presoterapia", "nombre": "Presoterapia", "descripcion": "Presoterapia corporal.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "criolipolisis", "nombre": "Criolipólisis", "descripcion": "Criolipólisis corporal.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "maderoterapia", "nombre": "Maderoterapia", "descripcion": "Masaje de maderoterapia.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "masaje-descontracturante", "nombre": "Masaje descontracturante", "descripcion": "Masaje descontracturante.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "drenaje-linfatico", "nombre": "Masaje drenante", "descripcion": "Masaje de drenaje linfático.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "depilacion-laser", "nombre": "Depilación láser", "descripcion": "Depilación láser.", "precioDesde": null, "duracionMin": null }
+    ],
+    "valoracion": { "media": 5, "numOpiniones": 55 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "10:00–20:00", "mar": "10:00–20:00", "mie": "10:00–20:00", "jue": "10:00–20:00", "vie": "10:00–20:00", "sab": "Horario no publicado", "dom": "Horario no publicado" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "esDemo": false
+  },
+  {
     "id": "prof_0015",
     "slug": "eclat-montecarmelo",
     "nombre": "Clínica Éclat Montecarmelo",
@@ -10,7 +51,7 @@
     "provincia": "Madrid",
     "codigoPostal": "28049",
     "coordenadas": { "lat": 40.5093164, "lng": -3.6936940 },
-    "contacto": { "telefono": "613 24 84 24", "email": null, "web": "https://esteticaeclatmontecarmelo.es", "instagram": null },
+    "contacto": { "telefono": "613 24 84 24", "email": null, "web": "", "instagram": null },
     "imagenes": {
       "logo": null,
       "portada": "assets/profesionales/galeria/eclat/eclat2.jpg",
@@ -32,12 +73,12 @@
       { "tratamientoSlug": "depilacion-laser", "nombre": "Depilación láser", "descripcion": "Depilación láser.", "precioDesde": null, "duracionMin": null }
     ],
     "valoracion": { "media": 4.9, "numOpiniones": 201 },
-    "destacado": false,
+    "destacado": true,
     "verificado": false,
     "activo": true,
     "horario": { "lun": "Horario no publicado", "mar": "Horario no publicado", "mie": "Horario no publicado", "jue": "Horario no publicado", "vie": "Horario no publicado", "sab": "Horario no publicado", "dom": "Horario no publicado" },
     "disponibilidad": null,
-    "reserva": { "habilitada": true, "url": "https://fwa1.flowww.net/318504/1/details", "employeeId": null },
+    "reserva": { "habilitada": false, "url": "https://fwa1.flowww.net/318504/1/details", "employeeId": null },
     "esDemo": false
   },
   {
