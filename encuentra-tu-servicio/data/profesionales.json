@@ -11,7 +11,17 @@
     "codigoPostal": "28049",
     "coordenadas": { "lat": 40.5093164, "lng": -3.6936940 },
     "contacto": { "telefono": "613 24 84 24", "email": null, "web": "https://esteticaeclatmontecarmelo.es", "instagram": null },
-    "imagenes": { "logo": null, "portada": null, "galeria": [] },
+    "imagenes": {
+      "logo": null,
+      "portada": "assets/profesionales/galeria/eclat/eclat2.jpg",
+      "galeria": [
+        "assets/profesionales/galeria/eclat/eclat2.jpg",
+        "assets/profesionales/galeria/eclat/eclat1.jpg",
+        "assets/profesionales/galeria/eclat/eclat.jpg",
+        "assets/profesionales/galeria/eclat/eclat3.jpg",
+        "assets/profesionales/galeria/eclat/eclat4.jpg"
+      ]
+    },
     "tratamientos": ["hilos-tensores", "aumento-labios", "rinomodelacion", "mesoterapia", "radiofrecuencia-facial", "depilacion-laser"],
     "servicios": [
       { "tratamientoSlug": "hilos-tensores", "nombre": "Hilos tensores", "descripcion": "Tratamiento facial con hilos tensores.", "precioDesde": null, "duracionMin": null },
