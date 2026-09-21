@@ -66,6 +66,15 @@ para quien busca.
 - **Logos**: sube el archivo a `assets/profesionales/logos/` (instrucciones dentro de esa carpeta) y apunta `imagenes.logo` del profesional a esa ruta en `profesionales.json`.
 - **Portada y galería**: cada negocio tiene su propia carpeta dentro de `assets/profesionales/galeria/tu-slug/` (instrucciones dentro de `galeria/README.md`). Si das de alta un negocio nuevo, crea esa carpeta y sube ahí sus fotos; luego apunta `imagenes.portada` / `imagenes.galeria` a esas rutas.
 - Si dejas cualquiera de estos campos en `null`, la web genera automáticamente una imagen de sustitución con las iniciales del negocio. Nunca verás un icono de imagen rota.
+- **Si la foto de portada se recorta mal** (por ejemplo, una foto vertical donde se corta la cara de la persona): añade el campo opcional `"enfoque"` dentro de `imagenes`, con un valor tipo `"center 15%"` (cuanto más bajo el porcentaje, más arriba se mantiene visible la foto al recortarla). Ejemplo:
+  ```json
+  "imagenes": {
+    "logo": "...",
+    "portada": "...",
+    "enfoque": "center 15%",
+    "galeria": [...]
+  }
+  ```
 
 ## Cambiar un precio o una descripción
 
