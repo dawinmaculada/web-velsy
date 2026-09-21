@@ -402,6 +402,7 @@
     var mediaImg = V.h('img', {
       src: p.imagenes.portada || V.avatarDataUri(p.nombre, { variant: 'cover', size: 400 }),
       alt: '', loading: 'lazy',
+      style: p.imagenes.enfoque ? ('object-position:' + p.imagenes.enfoque) : null,
       onerror: function (e) { e.target.src = V.avatarDataUri(p.nombre, { variant: 'cover', size: 400 }); }
     }, []);
     var media = V.h('a', {

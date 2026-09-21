@@ -14,6 +14,7 @@
     "imagenes": {
       "logo": "assets/profesionales/logos/maria-navarra-madrid.webp",
       "portada": "assets/profesionales/galeria/maria-navarra/mariaPortada.jpg",
+      "enfoque": "center 15%",
       "galeria": [
         "assets/profesionales/galeria/maria-navarra/mariaPortada.jpg",
         "assets/profesionales/galeria/maria-navarra/maria.jpg",

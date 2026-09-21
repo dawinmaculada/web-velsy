@@ -117,7 +117,8 @@
     var esLogoComoPortada = !!p.imagenes.portada && p.imagenes.portada === p.imagenes.logo;
     var coverImg = V.h('img', {
       src: assetPath(p.imagenes.portada) || V.avatarDataUri(p.nombre, { variant: 'cover', size: 800 }),
-      alt: ''
+      alt: '',
+      style: p.imagenes.enfoque ? ('object-position:' + p.imagenes.enfoque) : null
     }, []);
     V.withImageFallback(coverImg, p.nombre, 'cover');
     els.cover.appendChild(coverImg);
