@@ -13,8 +13,14 @@
     "contacto": { "telefono": "911 27 53 75", "email": "info@clinicadebellezamarianavarra.es", "web": "https://clinicadebellezamarianavarra.es", "instagram": "clinicadebellezamarianavarra" },
     "imagenes": {
       "logo": "assets/profesionales/logos/maria-navarra-madrid.webp",
-      "portada": null,
-      "galeria": []
+      "portada": "assets/profesionales/galeria/maria-navarra/mariaPortada.jpg",
+      "galeria": [
+        "assets/profesionales/galeria/maria-navarra/mariaPortada.jpg",
+        "assets/profesionales/galeria/maria-navarra/maria.jpg",
+        "assets/profesionales/galeria/maria-navarra/maria1.jpg",
+        "assets/profesionales/galeria/maria-navarra/maria2.jpg",
+        "assets/profesionales/galeria/maria-navarra/maria3.jpg"
+      ]
     },
     "tratamientos": ["limpieza-facial", "radiofrecuencia-facial", "peeling-quimico", "microneedling", "hifu-facial", "mesoterapia", "presoterapia", "criolipolisis", "maderoterapia", "masaje-descontracturante", "drenaje-linfatico", "depilacion-laser"],
     "servicios": [
@@ -32,7 +38,7 @@
       { "tratamientoSlug": "depilacion-laser", "nombre": "Depilación láser", "descripcion": "Depilación láser.", "precioDesde": null, "duracionMin": null }
     ],
     "valoracion": { "media": 5, "numOpiniones": 55 },
-    "destacado": false,
+    "destacado": true,
     "verificado": false,
     "activo": true,
     "horario": { "lun": "10:00–20:00", "mar": "10:00–20:00", "mie": "10:00–20:00", "jue": "10:00–20:00", "vie": "10:00–20:00", "sab": "Horario no publicado", "dom": "Horario no publicado" },
