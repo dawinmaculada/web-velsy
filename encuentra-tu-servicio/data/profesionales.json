@@ -1,5 +1,36 @@
 [
   {
+    "id": "prof_0015",
+    "slug": "eclat-montecarmelo",
+    "nombre": "Clínica Éclat Montecarmelo",
+    "categoriaSlug": "estetica",
+    "descripcion": "Centro médico de medicina estética en el barrio de Montecarmelo (Madrid): tratamientos faciales (hilos tensores, neuromoduladores, aumento de labios, rinomodelación, skinbooster), corporales (mesoterapia, radiofrecuencia, drenaje linfático), depilación láser, fisioterapia y nutrición.",
+    "direccion": "Avenida del Monasterio de El Escorial, 77",
+    "ciudad": "Madrid",
+    "provincia": "Madrid",
+    "codigoPostal": "28049",
+    "coordenadas": { "lat": 40.5093164, "lng": -3.6936940 },
+    "contacto": { "telefono": "613 24 84 24", "email": null, "web": "https://esteticaeclatmontecarmelo.es", "instagram": null },
+    "imagenes": { "logo": null, "portada": null, "galeria": [] },
+    "tratamientos": ["hilos-tensores", "aumento-labios", "rinomodelacion", "mesoterapia", "radiofrecuencia-facial", "depilacion-laser"],
+    "servicios": [
+      { "tratamientoSlug": "hilos-tensores", "nombre": "Hilos tensores", "descripcion": "Tratamiento facial con hilos tensores.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "aumento-labios", "nombre": "Aumento de labios", "descripcion": "Aumento e hidratación de labios.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "rinomodelacion", "nombre": "Rinomodelación", "descripcion": "Rinomodelación no quirúrgica.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "mesoterapia", "nombre": "Mesoterapia corporal", "descripcion": "Sesión de mesoterapia corporal.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "radiofrecuencia-facial", "nombre": "Radiofrecuencia", "descripcion": "Radiofrecuencia facial o corporal.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "depilacion-laser", "nombre": "Depilación láser", "descripcion": "Depilación láser.", "precioDesde": null, "duracionMin": null }
+    ],
+    "valoracion": { "media": 4.9, "numOpiniones": 201 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "Horario no publicado", "mar": "Horario no publicado", "mie": "Horario no publicado", "jue": "Horario no publicado", "vie": "Horario no publicado", "sab": "Horario no publicado", "dom": "Horario no publicado" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": true, "url": "https://fwa1.flowww.net/318504/1/details", "employeeId": null },
+    "esDemo": false
+  },
+  {
     "id": "prof_0014",
     "slug": "encarna-padilla-madrid",
     "nombre": "Encarna Padilla Estética",
@@ -19,7 +50,7 @@
         "assets/profesionales/galeria/encarna-padilla/tratamientos-faciales.jpg",
         "assets/profesionales/galeria/encarna-padilla/tratamientos-corporales.jpg",
         "assets/profesionales/galeria/encarna-padilla/facial.png",
-        "assets/profesionales/galeria/encarna-padilla/tesla.jpg"
+        "assets/profesionales/galeria/encarna-padilla/tratamientoT.jpg"
       ]
     },
     "tratamientos": ["hidrafacial", "bioslimming", "hifu-facial", "presoterapia", "mesoterapia"],
