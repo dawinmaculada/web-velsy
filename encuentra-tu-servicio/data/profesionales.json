@@ -1,5 +1,50 @@
 [
   {
+    "id": "prof_0020",
+    "slug": "veronica-s-pinto-madrid",
+    "nombre": "Verónica S. Pinto Hair Studio",
+    "categoriaSlug": "peluqueria",
+    "descripcion": "Estudio de peluquería especializado en color y tratamiento capilar.\nExpertos en balayage, babylights, mechas y color, además de tratamientos de hidratación, reconstrucción, proteínas, exfoliación capilar y alisado orgánico.\n\nTrabajan con productos veganos y firmas de alta calidad como ARKHE y REDKEN.\n\nUn espacio para cuidar tu cabello, relajarte y disfrutar de una experiencia personalizada.",
+    "direccion": "Calle de Valderribas, 47",
+    "ciudad": "Madrid",
+    "provincia": "Madrid",
+    "codigoPostal": "28007",
+    "coordenadas": { "lat": 40.4041823, "lng": -3.6747096 },
+    "contacto": { "telefono": "910 23 14 07", "email": null, "web": null, "instagram": "veronica.s.pinto" },
+    "imagenes": {
+      "logo": null,
+      "portada": "assets/profesionales/galeria/veronica-s-pinto/veronicaPortada.jpg",
+      "enfoque": "center 30%",
+      "galeria": [
+        "assets/profesionales/galeria/veronica-s-pinto/veronicaPortada.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto1.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto2.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto3.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto4.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto5.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto6.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto7.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto8.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto9.jpg"
+      ]
+    },
+    "tratamientos": ["coloracion", "mechas", "corte-de-pelo", "tratamiento-capilar"],
+    "servicios": [
+      { "tratamientoSlug": "coloracion", "nombre": "Coloración", "descripcion": "Coloración con productos veganos.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "mechas", "nombre": "Balayage y babylights", "descripcion": "Mechas balayage, babylights y highlights.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "corte-de-pelo", "nombre": "Corte y peinado", "descripcion": "Corte de pelo y peinado (blow dry).", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "tratamiento-capilar", "nombre": "Tratamientos capilares", "descripcion": "Hidratación, reconstrucción, proteínas, exfoliación capilar y alisado orgánico.", "precioDesde": null, "duracionMin": null }
+    ],
+    "valoracion": { "media": 4.9, "numOpiniones": 72 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "14:00–20:00", "mar": "14:00–20:00", "mie": "14:00–20:00", "jue": "14:00–20:00", "vie": "14:00–20:00", "sab": "Cerrado", "dom": "Cerrado" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "esDemo": false
+  },
+  {
     "id": "prof_0019",
     "slug": "am-studio-de-belleza",
     "nombre": "AM Studio de Belleza",
@@ -311,12 +356,12 @@
       { "tratamientoSlug": "pedicura", "nombre": "Reparación de una uña", "descripcion": "Reparación puntual de una uña del pie.", "precioDesde": 5, "duracionMin": null }
     ],
     "valoracion": { "media": 0, "numOpiniones": 0 },
-    "destacado": false,
-    "verificado": false,
+    "destacado": true,
+    "verificado": true,
     "activo": true,
     "horario": { "lun": "Horario no publicado", "mar": "Horario no publicado", "mie": "Horario no publicado", "jue": "Horario no publicado", "vie": "Horario no publicado", "sab": "Horario no publicado", "dom": "Horario no publicado" },
     "disponibilidad": null,
-    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "reserva": { "habilitada": true, "url": "https://appindalo.vercel.app/book/3e67be69-ebeb-432f-8a9c-2bad61e1ea79", "employeeId": null },
     "esDemo": false
   },
   {

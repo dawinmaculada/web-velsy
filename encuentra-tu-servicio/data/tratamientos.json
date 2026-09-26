@@ -27,6 +27,7 @@
   { "slug": "mechas", "nombre": "Mechas", "categoriaSlug": "peluqueria" },
   { "slug": "peinado-eventos", "nombre": "Peinado de eventos", "categoriaSlug": "peluqueria" },
   { "slug": "barba", "nombre": "Arreglo de barba", "categoriaSlug": "peluqueria" },
+  { "slug": "tratamiento-capilar", "nombre": "Tratamiento capilar", "categoriaSlug": "peluqueria" },
   { "slug": "masaje-descontracturante", "nombre": "Masaje descontracturante", "categoriaSlug": "masajes-bienestar" },
   { "slug": "masaje-deportivo", "nombre": "Masaje deportivo", "categoriaSlug": "masajes-bienestar" },
   { "slug": "masaje-relajante", "nombre": "Masaje relajante", "categoriaSlug": "masajes-bienestar" },
