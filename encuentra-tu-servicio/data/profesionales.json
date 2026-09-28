@@ -25,7 +25,15 @@
         "assets/profesionales/galeria/veronica-s-pinto/foto6.jpg",
         "assets/profesionales/galeria/veronica-s-pinto/foto7.jpg",
         "assets/profesionales/galeria/veronica-s-pinto/foto8.jpg",
-        "assets/profesionales/galeria/veronica-s-pinto/foto9.jpg"
+        "assets/profesionales/galeria/veronica-s-pinto/foto9.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto10.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto11.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto12.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto13.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto14.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto15.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto16.jpg",
+        "assets/profesionales/galeria/veronica-s-pinto/foto17.jpg"
       ]
     },
     "tratamientos": ["coloracion", "mechas", "corte-de-pelo", "tratamiento-capilar"],
@@ -81,7 +89,7 @@
     "valoracion": { "media": 4.7, "numOpiniones": 77 },
     "destacado": false,
     "verificado": false,
-    "activo": true,
+    "activo": false,
     "horario": { "lun": "10:00–20:00", "mar": "10:00–20:00", "mie": "10:00–20:00", "jue": "10:00–20:00", "vie": "10:00–20:00", "sab": "10:00–15:00", "dom": "Cerrado" },
     "disponibilidad": null,
     "reserva": { "habilitada": false, "url": null, "employeeId": null },
