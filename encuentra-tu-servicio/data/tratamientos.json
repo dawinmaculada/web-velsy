@@ -5,6 +5,7 @@
   { "slug": "hidrafacial", "nombre": "Hidrafacial", "categoriaSlug": "estetica" },
   { "slug": "manicura", "nombre": "Manicura", "categoriaSlug": "estetica" },
   { "slug": "pedicura", "nombre": "Pedicura", "categoriaSlug": "estetica" },
+  { "slug": "cejas", "nombre": "Diseño y depilación de cejas", "categoriaSlug": "estetica" },
   { "slug": "extension-de-unas", "nombre": "Extensión de uñas", "categoriaSlug": "estetica" },
   { "slug": "bioslimming", "nombre": "Bioslimming", "categoriaSlug": "estetica" },
   { "slug": "hifu-facial", "nombre": "HIFU facial (Ultherapy)", "categoriaSlug": "estetica" },

@@ -1,5 +1,48 @@
 [
   {
+    "id": "prof_0019",
+    "slug": "am-studio-de-belleza",
+    "nombre": "AM Studio de Belleza",
+    "categoriaSlug": "estetica",
+    "descripcion": "Espacio creado para que sus clientes se sientan seguros, cuidados y en manos profesionales. Trabajan con productos de calidad y técnicas actualizadas para resaltar la belleza natural. Equipo formado por Yenifer y Alicia Ruiz.",
+    "direccion": "Calle Ramón Gómez de la Serna, 5, Local 3",
+    "ciudad": "Madrid",
+    "provincia": "Madrid",
+    "codigoPostal": "28035",
+    "coordenadas": { "lat": 40.4814841, "lng": -3.7238178 },
+    "contacto": { "telefono": "614 52 10 24", "email": null, "web": null, "instagram": null },
+    "imagenes": {
+      "logo": null,
+      "portada": "assets/profesionales/galeria/am-studio-de-belleza/portada-banner.jpg",
+      "galeria": [
+        "assets/profesionales/galeria/am-studio-de-belleza/foto2.jpg",
+        "assets/profesionales/galeria/am-studio-de-belleza/foto1.jpg",
+        "assets/profesionales/galeria/am-studio-de-belleza/foto4.jpg",
+        "assets/profesionales/galeria/am-studio-de-belleza/foto7.jpg",
+        "assets/profesionales/galeria/am-studio-de-belleza/foto3.jpg",
+        "assets/profesionales/galeria/am-studio-de-belleza/foto8.jpg",
+        "assets/profesionales/galeria/am-studio-de-belleza/foto6.jpg"
+      ]
+    },
+    "tratamientos": ["manicura", "pedicura", "cejas"],
+    "servicios": [
+      { "tratamientoSlug": "manicura", "nombre": "Manicura semipermanente con base rubber", "descripcion": "Manicura con esmaltado semipermanente y base rubber.", "precioDesde": 23, "duracionMin": null },
+      { "tratamientoSlug": "cejas", "nombre": "Depilación de cejas con hilo", "descripcion": "Diseño y depilación de cejas con hilo.", "precioDesde": 12, "duracionMin": null },
+      { "tratamientoSlug": "manicura", "nombre": "Retiro de permanente", "descripcion": "Retirada de esmaltado semipermanente.", "precioDesde": 6, "duracionMin": null },
+      { "tratamientoSlug": "manicura", "nombre": "Manicura clásica", "descripcion": "Manicura clásica.", "precioDesde": 15, "duracionMin": null },
+      { "tratamientoSlug": "pedicura", "nombre": "Pedicura clásica", "descripcion": "Pedicura clásica.", "precioDesde": 20, "duracionMin": null },
+      { "tratamientoSlug": "manicura", "nombre": "Diseños", "descripcion": "Diseño de uñas (extra sobre el precio de la manicura).", "precioDesde": 1, "duracionMin": null }
+    ],
+    "valoracion": { "media": 4.7, "numOpiniones": 77 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "10:00–20:00", "mar": "10:00–20:00", "mie": "10:00–20:00", "jue": "10:00–20:00", "vie": "10:00–20:00", "sab": "10:00–15:00", "dom": "Cerrado" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "esDemo": false
+  },
+  {
     "id": "prof_0018",
     "slug": "mimmum-madrid",
     "nombre": "MIMMUM Experiencia de Bienestar",
