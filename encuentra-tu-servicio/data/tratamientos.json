@@ -35,6 +35,7 @@
   { "slug": "clases-de-yoga", "nombre": "Clases de yoga", "categoriaSlug": "masajes-bienestar" },
   { "slug": "quiromasaje", "nombre": "Quiromasaje", "categoriaSlug": "masajes-bienestar" },
   { "slug": "maderoterapia", "nombre": "Maderoterapia", "categoriaSlug": "masajes-bienestar" },
+  { "slug": "circuito-spa", "nombre": "Circuito spa / sauna", "categoriaSlug": "masajes-bienestar" },
   { "slug": "fisioterapia-deportiva", "nombre": "Fisioterapia deportiva", "categoriaSlug": "fisioterapia" },
   { "slug": "rehabilitacion", "nombre": "Rehabilitación", "categoriaSlug": "fisioterapia" }
 ]

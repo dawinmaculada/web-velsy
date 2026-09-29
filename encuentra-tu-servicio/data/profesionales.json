@@ -1,5 +1,97 @@
 [
   {
+    "id": "prof_0022",
+    "slug": "centro-aloe-granada",
+    "nombre": "Centro Aloe Granada",
+    "categoriaSlug": "osteopatia",
+    "descripcion": "Centro de osteopatía, masaje, estética avanzada y cuidados posquirúrgicos en Granada. \"Nuestra máxima es atenderte con corazón, profesionalidad, tranquilidad y maestría.\"",
+    "direccion": "Camino Real de los Neveros, esquina Estrella de las Nieves",
+    "ciudad": "Granada",
+    "provincia": "Granada",
+    "codigoPostal": "18008",
+    "coordenadas": { "lat": 37.1622682, "lng": -3.5861263 },
+    "contacto": { "telefono": "675 19 63 10", "email": "info@aloegranada.com", "web": "https://aloegranada.com", "instagram": "centro_aloe_granada" },
+    "imagenes": {
+      "logo": "assets/profesionales/logos/aloe-granada.png",
+      "portada": "assets/profesionales/galeria/aloe-granada/portada-banner.jpg",
+      "galeria": [
+        "assets/profesionales/galeria/aloe-granada/aloe-001.jpg",
+        "assets/profesionales/galeria/aloe-granada/aloe-004.jpg",
+        "assets/profesionales/galeria/aloe-granada/aloe-005.jpg",
+        "assets/profesionales/galeria/aloe-granada/aloe-021.jpg",
+        "assets/profesionales/galeria/aloe-granada/aloe-024.jpg",
+        "assets/profesionales/galeria/aloe-granada/aloe-032.jpg",
+        "assets/profesionales/galeria/aloe-granada/aloe-044.jpg"
+      ]
+    },
+    "tratamientos": ["osteopatia-estructural", "masaje-relajante", "quiromasaje", "drenaje-linfatico", "maderoterapia", "presoterapia", "criolipolisis", "hidrafacial", "limpieza-facial", "radiofrecuencia-facial"],
+    "servicios": [
+      { "tratamientoSlug": "osteopatia-estructural", "nombre": "Osteopatía", "descripcion": "Sesión de osteopatía estructural, visceral o craneal según necesidad.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "masaje-relajante", "nombre": "Masaje relajante", "descripcion": "Masaje lento y rítmico para la relajación y el descanso.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "quiromasaje", "nombre": "Quiromasaje", "descripcion": "Masaje energético y profundo para tensión muscular y estrés.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "drenaje-linfatico", "nombre": "Drenaje linfático", "descripcion": "Drenaje linfático manual, también en técnica brasileña.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "maderoterapia", "nombre": "Maderoterapia", "descripcion": "Maderoterapia colombiana para modelar y tonificar.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "presoterapia", "nombre": "Presoterapia", "descripcion": "Sesión de presoterapia.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "criolipolisis", "nombre": "Criolipólisis química", "descripcion": "Reducción de grasa localizada mediante criolipólisis química.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "hidrafacial", "nombre": "Higiene Hidrafacial", "descripcion": "Limpieza facial en profundidad con tecnología Hidrafacial.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "limpieza-facial", "nombre": "Facial personalizado", "descripcion": "Tratamiento facial adaptado a cada tipo de piel: dermapen, peeling químico, hidratación, manchas, arrugas o flacidez.", "precioDesde": null, "duracionMin": null },
+      { "tratamientoSlug": "radiofrecuencia-facial", "nombre": "Radiofrecuencia Indiba", "descripcion": "Radiofrecuencia con tecnología Indiba Edna ProMax.", "precioDesde": null, "duracionMin": null }
+    ],
+    "valoracion": { "media": 0, "numOpiniones": 0 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "Horario no publicado", "mar": "Horario no publicado", "mie": "Horario no publicado", "jue": "Horario no publicado", "vie": "Horario no publicado", "sab": "Horario no publicado", "dom": "Horario no publicado" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "esDemo": false
+  },
+  {
+    "id": "prof_0021",
+    "slug": "eaa-aesthetic-clinic",
+    "nombre": "E&A Aesthetic Clinic",
+    "categoriaSlug": "estetica",
+    "descripcion": "Espacio de belleza y bienestar en Castellón de la Plana con 28 años de experiencia, que combina estética avanzada, medicina estética, tratamientos láser, rituales faciales y spa privado. Filosofía de cuidado consciente de inspiración japonesa: protocolos que unen tecnología, experiencia, belleza y bienestar.",
+    "direccion": "Bulevar Vicente Blasco Ibáñez, 5, bajo 1",
+    "ciudad": "Castellón de la Plana",
+    "provincia": "Castellón",
+    "codigoPostal": "12003",
+    "coordenadas": { "lat": 39.9859852, "lng": -0.0264735 },
+    "contacto": { "telefono": "659 97 87 19", "email": "ea.aesthetic.clinic@gmail.com", "web": "https://www.eaaestheticclinic.es", "instagram": "ea.aesthetic.clinic" },
+    "imagenes": {
+      "logo": "assets/profesionales/logos/eaa-aesthetic-clinic.png",
+      "portada": "assets/profesionales/galeria/eaa-aesthetic-clinic/portada-banner.jpg",
+      "galeria": [
+        "assets/profesionales/galeria/eaa-aesthetic-clinic/fachada.jpg",
+        "assets/profesionales/galeria/eaa-aesthetic-clinic/spa-sensory.jpeg",
+        "assets/profesionales/galeria/eaa-aesthetic-clinic/hero-sakura.jpeg",
+        "assets/profesionales/galeria/eaa-aesthetic-clinic/historia.jpeg"
+      ]
+    },
+    "tratamientos": ["mesoterapia", "radiofrecuencia-facial", "peeling-quimico", "limpieza-facial", "hidrafacial", "microneedling", "circuito-spa", "depilacion-laser"],
+    "servicios": [
+      { "tratamientoSlug": "mesoterapia", "nombre": "Sakura Glow (Exosomas)", "descripcion": "Ritual facial con exosomas.", "precioDesde": 129, "duracionMin": null },
+      { "tratamientoSlug": "radiofrecuencia-facial", "nombre": "Muri Shinai (Lifting japonés)", "descripcion": "Ritual facial de lifting no invasivo.", "precioDesde": 89, "duracionMin": null },
+      { "tratamientoSlug": "peeling-quimico", "nombre": "Hikari (Ritual con triácidos)", "descripcion": "Ritual facial con triácidos.", "precioDesde": 99, "duracionMin": null },
+      { "tratamientoSlug": "limpieza-facial", "nombre": "Bi-No-Ki (Ritual purificante)", "descripcion": "Ritual facial purificante.", "precioDesde": 69, "duracionMin": null },
+      { "tratamientoSlug": "limpieza-facial", "nombre": "Hoshi (Contorno de ojos)", "descripcion": "Cuidado específico del contorno de ojos.", "precioDesde": 69, "duracionMin": null },
+      { "tratamientoSlug": "hidrafacial", "nombre": "Shizuku (Hidratación intensa)", "descripcion": "Ritual facial de hidratación intensa.", "precioDesde": 89, "duracionMin": null },
+      { "tratamientoSlug": "peeling-quimico", "nombre": "Peeling facial", "descripcion": "Peeling láctico, mandélico, pirúvico o salicílico según necesidad.", "precioDesde": 49, "duracionMin": null },
+      { "tratamientoSlug": "microneedling", "nombre": "Microneedling facial", "descripcion": "Tratamiento facial con microagujas.", "precioDesde": 49, "duracionMin": null },
+      { "tratamientoSlug": "circuito-spa", "nombre": "Sauna + baño turco (30 min)", "descripcion": "Sesión individual de sauna y baño turco.", "precioDesde": 25, "duracionMin": 30 },
+      { "tratamientoSlug": "circuito-spa", "nombre": "Circuito spa privado (60 min)", "descripcion": "Circuito spa privado individual.", "precioDesde": 69, "duracionMin": 60 },
+      { "tratamientoSlug": "depilacion-laser", "nombre": "Depilación láser", "descripcion": "Depilación láser por zona, precio según la zona a tratar.", "precioDesde": null, "duracionMin": null }
+    ],
+    "valoracion": { "media": 0, "numOpiniones": 0 },
+    "destacado": false,
+    "verificado": false,
+    "activo": true,
+    "horario": { "lun": "09:30–17:30", "mar": "09:30–19:30", "mie": "09:30–17:30", "jue": "09:30–19:30", "vie": "09:30–17:30", "sab": "Circuito spa: consultar disponibilidad", "dom": "Circuito spa: consultar disponibilidad" },
+    "disponibilidad": null,
+    "reserva": { "habilitada": false, "url": null, "employeeId": null },
+    "esDemo": false
+  },
+  {
     "id": "prof_0020",
     "slug": "veronica-s-pinto-madrid",
     "nombre": "Verónica S. Pinto Hair Studio",
