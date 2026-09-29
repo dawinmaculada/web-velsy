@@ -33,7 +33,9 @@
     stateEmpty: document.getElementById('state-empty'),
     stateError: document.getElementById('state-error'),
     resultsGrid: document.getElementById('results-grid'),
-    categoriaChips: document.getElementById('categoria-chips')
+    categoriaChips: document.getElementById('categoria-chips'),
+    mapaWrap: document.getElementById('results-mapa-wrap'),
+    mapaEl: document.getElementById('results-mapa')
   };
 
   var DATA = { categorias: [], tratamientos: [], profesionales: [] };
@@ -52,6 +54,12 @@
     userCoords: null
   };
   var hasSearched = false;
+
+  // ── Mapa de resultados (Leaflet + OpenStreetMap) ────────────────────
+  // window.L puede no existir si el CDN de Leaflet no ha cargado (sin conexión,
+  // bloqueador de contenido, etc.): el mapa se oculta sin más, nunca rompe la búsqueda.
+  var mapInstance = null;
+  var mapMarkers = [];
 
   // ── Carga de datos ───────────────────────────────────────────────────
   Promise.all([
@@ -356,6 +364,7 @@
       els.resultsControls.hidden = true;
       els.resultsTitle.textContent = 'Busca un servicio y descubre profesionales cerca de ti';
       els.destacadosSection.hidden = false;
+      els.mapaWrap.hidden = true;
       return;
     }
 
@@ -370,6 +379,7 @@
       show(els.stateEmpty);
       els.resultsGrid.hidden = true;
       els.resultsTitle.textContent = 'Sin resultados';
+      els.mapaWrap.hidden = true;
       return;
     }
 
@@ -377,6 +387,67 @@
     els.resultsGrid.innerHTML = '';
     els.resultsGrid.hidden = false;
     sorted.forEach(function (p) { els.resultsGrid.appendChild(renderCard(p)); });
+    renderMapa(sorted);
+  }
+
+  // ── Mapa de resultados ───────────────────────────────────────────────
+  function renderMapa(list) {
+    var conCoords = list.filter(function (p) {
+      return p.coordenadas && typeof p.coordenadas.lat === 'number' && typeof p.coordenadas.lng === 'number';
+    });
+    if (!window.L || !conCoords.length) { els.mapaWrap.hidden = true; return; }
+
+    els.mapaWrap.hidden = false;
+
+    if (!mapInstance) {
+      mapInstance = L.map(els.mapaEl, { scrollWheelZoom: false });
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'
+      }).addTo(mapInstance);
+    }
+
+    mapMarkers.forEach(function (m) { mapInstance.removeLayer(m); });
+    mapMarkers = [];
+
+    conCoords.forEach(function (p) {
+      var rating = V.formatRating(p.valoracion);
+      var icon = L.divIcon({
+        className: 'map-pin-wrap',
+        html: rating.stars
+          ? '<span class="map-pin map-pin-rated"><span class="map-pin-star">★</span>' + rating.text.split(' ')[0] + '</span>'
+          : '<span class="map-pin map-pin-plain"></span>',
+        iconSize: null
+      });
+      var marker = L.marker([p.coordenadas.lat, p.coordenadas.lng], { icon: icon, title: p.nombre });
+      marker.bindPopup(renderMapaPopup(p, rating), { closeButton: true, minWidth: 220 });
+      marker.addTo(mapInstance);
+      mapMarkers.push(marker);
+    });
+
+    if (conCoords.length === 1) {
+      mapInstance.setView([conCoords[0].coordenadas.lat, conCoords[0].coordenadas.lng], 14);
+    } else {
+      var bounds = L.latLngBounds(conCoords.map(function (p) { return [p.coordenadas.lat, p.coordenadas.lng]; }));
+      mapInstance.fitBounds(bounds, { padding: [30, 30], maxZoom: 15 });
+    }
+    // El contenedor está en `hidden` (display:none) hasta este punto, así que Leaflet
+    // no pudo medir su tamaño real al crearlo: hay que forzarlo tras hacerse visible.
+    setTimeout(function () { mapInstance.invalidateSize(); }, 0);
+  }
+
+  function renderMapaPopup(p, rating) {
+    var perfilUrl = '/encuentra-tu-servicio/' + encodeURIComponent(p.slug) + '/';
+    var categoria = categoriasBySlug[p.categoriaSlug];
+    return V.h('div', { class: 'map-popup' }, [
+      V.h('h4', {}, [p.nombre]),
+      V.h('p', { class: 'map-popup-meta' }, [(categoria ? categoria.nombre : '') + ' · ' + p.ciudad]),
+      V.h('p', { class: 'map-popup-rating' }, [
+        rating.stars ? V.h('span', { class: 'stars' }, [rating.stars]) : null,
+        rating.text
+      ]),
+      V.h('a', { class: 'btn btn-gold', href: perfilUrl }, ['Ver perfil'])
+    ]);
   }
 
   function renderDestacados() {

@@ -13,7 +13,8 @@
   <meta property="og:description" content="Descubre profesionales de bienestar cerca de ti y encuentra el tratamiento que necesitas." />
   <meta property="og:url" content="https://velsy.es/encuentra-tu-servicio/" />
 
-  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <link rel="stylesheet" href="styles.css?v=7" />
 
   <script type="application/ld+json">
   {
@@ -171,6 +172,11 @@
     </div>
 
     <div id="results-grid" class="cards-grid" hidden></div>
+
+    <div id="results-mapa-wrap" class="resultados-mapa-wrap" hidden>
+      <h3 class="resultados-mapa-titulo">Profesionales en el mapa</h3>
+      <div id="results-mapa" class="resultados-mapa" role="application" aria-label="Mapa con la ubicación de los profesionales encontrados"></div>
+    </div>
   </section>
 
   <section class="mkt-cta-pro">
@@ -186,8 +192,9 @@
     <span>Diseñado y desarrollado por <a href="https://www.tecnovistadigital.com" target="_blank" rel="noopener noreferrer">Tecnovista Digital</a></span>
   </footer>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
   <script src="common.js?v=4"></script>
   <script src="booking-service.js?v=4"></script>
-  <script src="search.js?v=4"></script>
+  <script src="search.js?v=5"></script>
 </body>
 </html>

@@ -204,6 +204,33 @@ img { display: block; max-width: 100%; }
 .state-block.is-error { color: var(--danger); }
 .state-block.is-error h3 { color: var(--danger); }
 
+/* ── Mapa de resultados ──────────────────────────────────────────────── */
+.resultados-mapa-wrap { margin-top: 2rem; }
+.resultados-mapa-titulo { font-size: 1.05rem; color: var(--text); margin-bottom: .8rem; }
+.resultados-mapa {
+  height: 420px; border-radius: var(--r); border: 1px solid var(--border);
+  overflow: hidden; background: var(--surface);
+}
+.map-pin-wrap { background: transparent; border: none; }
+.map-pin {
+  display: inline-flex; align-items: center; gap: .25rem; white-space: nowrap;
+  background: var(--card); color: var(--text); font: 700 .78rem system-ui, sans-serif;
+  padding: .35rem .6rem; border-radius: 50px; border: 1.5px solid var(--border);
+  box-shadow: var(--shadow-sm); transform: translate(-50%, -100%); cursor: pointer;
+}
+.map-pin-rated .map-pin-star { color: var(--gold); }
+.map-pin-plain {
+  width: 16px; height: 16px; padding: 0; border-radius: 50%;
+  background: var(--gold); border: 2px solid var(--card); box-shadow: var(--shadow-sm);
+  transform: translate(-50%, -50%);
+}
+.map-popup h4 { font-size: .95rem; color: var(--text); margin-bottom: .2rem; }
+.map-popup-meta { font-size: .78rem; color: var(--text-muted); margin-bottom: .4rem; }
+.map-popup-rating { font-size: .8rem; color: var(--text-muted); display: flex; align-items: center; gap: .35rem; margin-bottom: .6rem; }
+.map-popup-rating .stars { color: var(--gold); letter-spacing: 1px; }
+.map-popup .btn { display: block; text-align: center; font-size: .82rem; padding: .5rem .8rem; text-decoration: none; }
+.leaflet-popup-content-wrapper { border-radius: 10px; }
+
 .categoria-chips { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; margin-top: 1.75rem; }
 .categoria-chip {
   display: inline-flex; align-items: center; gap: .4rem; background: var(--card); border: 1px solid var(--border);
